@@ -71,7 +71,8 @@ header, section {
 
 #email {
     height:50px;
-    width:450px;
+    width:440px;
+    padding-left: 10px;
     border-radius: 7px;
     margin-right: 20px;
     font-size: 20px;
@@ -84,6 +85,11 @@ header, section {
     color:#FFFFFF;
     font-size: 18px;
     font-weight: bold;
+}
+
+#trial_button:hover {
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
 
@@ -229,4 +235,19 @@ header, section {
         align-items: center;
     }
 
+    #logo4, #logo5 {
+        margin-top:20px;
+    }
+    
+    #trial_button2:hover {
+        background-color: #FFFFFF;
+        color: #000000;
+    }
+
+    #quote {
+        font-size: 20px;
+    }
+    #ceo_quote {
+        font-size: 16px;
+    }
 }
